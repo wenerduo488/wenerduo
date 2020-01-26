@@ -1,0 +1,95 @@
+body{
+ margin: 0 0;
+}
+
+#divOne{
+	height:1000px;
+     width: 100%;
+	 background-color: #000000;
+	 color: #ffffff;
+}
+#divOne{
+
+	}
+#divOne p{
+	font-size: 30px;
+	text-align: center;
+  box-shadow: aliceblue;
+}
+.mui-navigate-right{
+	width: 500px;
+	color: #F0F8FF;
+	background-color: #F0F8FF;
+}
+.mui-navigate-right li{
+	float: left;
+	margin: 10px;
+	list-style: none;
+	text-align: left;
+}
+.boxOne{
+	float: left;
+	height: 300px;
+	width: 200px;
+	display: inherit;
+	background-color: #FFFFFF;
+	margin: 450px;
+	top: -300px;
+	position: absolute ;
+}
+.boxTwo{
+	float: left;
+	height: 100px;
+	width: 100%;
+	display: inherit;
+	background-color: #a8a2ad;
+	margin: 0px;
+	top: 500px;
+	position: absolute ;
+}
+.boxTwo li{
+	font-size: 30px;
+	color: #000000;
+	margin: 10px;
+	float: left;
+	list-style: none;
+
+}
+.boxThree{
+	height: 250px;
+	width: 100%;
+	display: inherit;
+	background-color: #2e8488;
+	margin: 0px;
+	top: 600px;
+	position: absolute ;
+}
+.boxThree li{
+	font-size: 20px;
+	color: #000000;
+	margin: -5px;
+	padding: -5px;
+
+	list-style: none;
+
+
+}
+.boxfour{
+	float: left;
+	height: 200px;
+	width: 100%;
+	display: inherit;
+	background-color: #a8a2ad;
+	margin: 0px;
+	top: 850px;
+	position: absolute ;
+}
+.boxfour li{
+	font-size: 20px;
+	color: #000000;
+	margin: -5px;
+	padding: -5px;
+	
+	list-style: none;
+	
+	}
