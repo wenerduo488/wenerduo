@@ -1,0 +1,58 @@
+<!DOCTYPE  html>
+<html>
+	<meta charset="utf-8" />
+	<head> <title>个人简历</title>
+	<script  src="js/vue@2.6.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/threeCss.css"/>
+	</head>
+	<body>
+  <div id="divOne">
+		<div id="app">
+			<p>{{mes}}</p>
+			<div class="mui-navigate-right">
+				<li>个人教育经历</li>
+				<li>学习课程</li>
+				<li>实践项目</li>
+				<li>个人经历</li>
+				<li>专业技能</li>
+				
+		</div>
+		<div class="boxOne">
+			<img width="200" height="300"  src="img/20200113103550_1.jpg" alt="请上传头像" >
+		</div>
+		<div class="boxTwo">
+		<ul>
+			<li>{{hehe}}</li>
+			<li>{{hehe}}专业</li><br />
+				<li>求职岗位{{hehe}}</li>
+		</ul>
+		</div>
+		<div class="boxThree">
+			<ul>
+				<h1>实践项目</h1>
+				<li>css弹性盒子测试</li><br />
+				<li>跨浏览器兼容性测试</li><br />
+				<li>道路病害标记员</li><br />
+				<li>安卓ui设计</li>
+			</ul>
+		</div>
+		<div class="boxfour">
+			<ul>
+				<li>{{six}}</li><br />
+				<li>{{sixsix}}</li>
+			</ul>
+		</div>
+		</div>
+	<script type="text/javascript">
+		var app=new Vue({
+			el:"#app",
+			data:{
+				hehe: 'xx',
+				mes:'这是一份个人简历',
+				six:'熟悉w3c标准，了解基本html/html语法，熟悉vue模板，了解JavaScript基本操作，熟悉css基本元素，理解java三大特性面向对象思想，封装，多核心',
+				sixsix:'熟悉mysql基本操作,使用过Linux中Redhat 基本指令。',
+			}
+		})
+	</script>
+	</body>
+</html>
